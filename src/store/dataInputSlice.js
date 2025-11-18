@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3079';
+const API_URL = 'https://geodata-vision-backend.onrender.com';
 
 export const fetchUserCountryData = createAsyncThunk(
   'dataInput/fetchUserCountryData',
